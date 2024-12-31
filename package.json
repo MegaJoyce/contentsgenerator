@@ -1,0 +1,55 @@
+{
+  "name": "contentsgenerator",
+  "displayName": "Contents Generator for Markdown",
+  "description": "Generate the table of contents for Markdown files.",
+  "version": "1.0.0",
+  "author":{
+    "name": "Yue He",
+    "email": "joyceheyue@outlook.com"
+  },
+  "publisher": "joyceheyue",
+  "license": "GPLv3",
+	"homepage": "https://github.com/Megajoyce/contentsgenerator",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Megajoyce/contentsgenerator"
+	},
+	"bugs": {
+		"url": "https://github.com/Megajoyce/contentsgenerator/issues"
+	},
+	"icon": "images/logo.png",
+	"keywords": [
+		"markdown",
+		"contents",
+    "table of contents"
+	],
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "contentsgenerator.generateContentsTable"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "contentsgenerator.generateContentsTable",
+      "title": "Contents Generator: generate table of contents"
+    }]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.96.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "eslint": "^9.16.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
