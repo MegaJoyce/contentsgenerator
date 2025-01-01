@@ -9,13 +9,13 @@
   },
   "publisher": "joyceheyue",
   "license": "GPLv3",
-	"homepage": "https://github.com/Megajoyce/contentsgenerator",
+	"homepage": "https://github.com/MegaJoyce/contentsgenerator",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Megajoyce/contentsgenerator"
+		"url": "https://github.com/MegaJoyce/contentsgenerator"
 	},
 	"bugs": {
-		"url": "https://github.com/Megajoyce/contentsgenerator/issues"
+		"url": "https://github.com/MegaJoyce/contentsgenerator/issues"
 	},
 	"icon": "images/logo.png",
 	"keywords": [
