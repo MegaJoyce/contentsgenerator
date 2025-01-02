@@ -1,12 +1,12 @@
-# Contents Generator for Markdown
+# TOC Generator for Markdown
 
-This is the README for Yue He's VS Code extension "Contents Generator for Markdown(contentsgenerator)".
+This VS Code extension is used to generate table of contents for GFM Markdown files.
 
 ## Features
 
-It is used to generate a table of contents on the top of the markdown file, usually for a README.md. 
+It will generate a table of contents on the top of the markdown file.
 
-To use it, press F1 or Shift + Ctrl + p to call out Command Palette, type "generate table of contents", and click the command "Contents Generator: generate table of contents". Make sure you have clicked the current Markdown file before you run the command.
+To use it, press F1 or Shift + Ctrl + p to call out Command Palette, type "generate table of contents", and click the command "TOC Generator: generate table of contents for md". Make sure you have clicked the current Markdown file before you run the command.
 
 ## Requirements
 
@@ -23,6 +23,13 @@ No
 ## Release Notes
 
 See more in CHANGELOG.
+
+### 1.0.1
+
+Fixed:
+- special characters
+- duplicates
+- Emojis
 
 ### 1.0.0
 
