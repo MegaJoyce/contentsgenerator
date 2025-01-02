@@ -4,10 +4,15 @@ All notable changes to the "contentsgenerator" extension will be documented in t
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
-## [Unreleased]
-
-### Added
-- a reference section for links in the body.
+## [Release 1.0.1] - 2025-1-1
+### Changed
+- extension name
+- commands name
+- README.md
+### Fixed
+- special characters
+- duplicates
+- Emojis
 
 ## [Release 1.0.0] - 2024-12-31
 
