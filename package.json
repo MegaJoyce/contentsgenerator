@@ -1,6 +1,6 @@
 {
   "name": "tocgeneratorformd",
-  "displayName": "TOC Generator for Markdown",
+  "displayName": "ToC Generator for Markdown",
   "description": "Generate table of contents for Markdown files.",
   "version": "1.0.1",
   "author": {
@@ -30,14 +30,19 @@
     "Other"
   ],
   "activationEvents": [
-    "tocgenerator.generateContentsTable"
+    "tocgenerator.generateContentsTable",
+    "tocgenerator.generateContentsTablegh"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
         "command": "tocgenerator.generateContentsTable",
-        "title": "TOC Generator: generate table of contents for md"
+        "title": "create ToC for VS Code MD preview"
+      },
+      {
+        "command": "tocgenerator.generateContentsTablegh",
+        "title": "create ToC for GitHub MD"
       }
     ]
   },

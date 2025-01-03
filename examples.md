@@ -15,7 +15,7 @@
   * [Sub Topic 1](#sub-topic-1)  
     * [Sub-Sub Topic A](#sub-sub-topic-a)  
   * [Sub Topic 2](#sub-topic-2)  
-* [Introduction to Markdown](#introduction-to-markdown-2)  
+* [Introduction to Markdown](#introduction-to-markdown-2)
   * [Learn Markdown Basics](#learn-markdown-basics)  
     * [Writing with Markdown Syntax](#writing-with-markdown-syntax)  
 * [Version 1.0: New Features](#version-10-new-features)  
