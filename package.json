@@ -2,13 +2,13 @@
   "name": "tocgeneratorformd",
   "displayName": "ToC Generator for Markdown",
   "description": "Generate table of contents for Markdown files.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Yue He",
     "email": "joyceheyue@outlook.com"
   },
   "publisher": "joyceheyue",
-  "license": "GPLv3",
+  "license": "MIT",
   "homepage": "https://github.com/MegaJoyce/contentsgenerator",
   "repository": {
     "type": "git",
